@@ -45,12 +45,12 @@ class CalculatorTestJUnit {
         @Test
         void multiplyStatic() throws Exception{
 
-            assertEquals(1000, Calculator.multiplyStatic(10, 10, 10), "10 / 10 must be 1");
+            assertEquals(1000, Calculator.multiplyScalor(10, 10, 10), "10 / 10 must be 1");
         }
 
         @Test
         void multiplyCons() throws Exception{
 
-            assertEquals(1000, Calculator.multiplyCons(10, 10, 10), "10 / 10 must be 1");
+            assertEquals(1000, Calculator.multiplyByGravity(10, 10, 10), "10 / 10 must be 1");
         }
 }
