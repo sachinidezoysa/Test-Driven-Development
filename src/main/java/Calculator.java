@@ -94,21 +94,13 @@ public class Calculator implements Constants{
         return answer;
     }
 
-    public static int divide(int firstNumber, int secondNumber) {//will divide two numbers
+    public static int divide(int firstNumber, int secondNumber) throws ArithmeticException{//will divide two numbers
 
         int answer = 0;
 
-        try {
+        answer = firstNumber / secondNumber;
+        System.out.println("answer" + answer);
 
-            answer = firstNumber / secondNumber;
-            System.out.println("answer" + answer);
-
-            return answer;
-
-        } catch (ArithmeticException a) {
-
-            System.out.println("Divition bsecondNumber zero is not possible!!");//if number is going to use zero it displasecondNumber this
-        }
         return answer;
     }
 
