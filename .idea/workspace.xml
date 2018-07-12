@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93140b48-7aa6-428e-bc52-1d5596de3c33" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/CalculatorTestJUnit.java" afterDir="false" />
+    <list default="true" id="93140b48-7aa6-428e-bc52-1d5596de3c33" name="Default Changelist" comment="added throws ArithmeticException">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CalculatorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CalculatorImplTestJUnit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CalculatorTestMokito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CalculatorTestMokito.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CalculatorTestNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CalculatorTestNG.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Calculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CalculatorService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CalculatorTestJUnit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CalculatorTestMokito.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CalculatorTestMokito.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CalculatorTestNG.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CalculatorTestNG.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,7 +29,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="getignoreit" value="2" />
+          <entry key="getignoreit" value="3" />
           <entry key="java" value="8" />
         </counts>
       </usages-collector>
@@ -46,20 +37,20 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="JAVA" value="8" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1650" />
-          <entry key="txt" value="26" />
+          <entry key="java" value="1985" />
+          <entry key="txt" value="102" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1650" />
-          <entry key="PLAIN_TEXT" value="26" />
+          <entry key="JAVA" value="1985" />
+          <entry key="PLAIN_TEXT" value="102" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -79,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorTestMokito.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="41" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="41" />
+            <state relative-caret-position="225">
+              <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -100,8 +91,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+            <state relative-caret-position="627">
+              <caret line="96" column="31" lean-forward="true" selection-start-line="96" selection-start-column="31" selection-end-line="96" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -109,8 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorTestJUnit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+            <state relative-caret-position="735">
+              <caret line="53" column="60" lean-forward="true" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -118,8 +109,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorTestNG.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state relative-caret-position="717">
+              <caret line="53" column="56" lean-forward="true" selection-start-line="53" selection-start-column="56" selection-end-line="53" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,6 +129,15 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>y</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>firstNumber</replace>
+      <replace>secondNumber</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -148,12 +148,12 @@
         <option value="$PROJECT_DIR$/src/main/java/MyDatabase.java" />
         <option value="$PROJECT_DIR$/.getignoreit" />
         <option value="$PROJECT_DIR$/src/main/java/CalculatorService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CalculatorImplTestJUnit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CalculatorImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/CalculatorTestJUnit.java" />
         <option value="$PROJECT_DIR$/src/test/java/CalculatorTestNG.java" />
-        <option value="$PROJECT_DIR$/src/test/java/CalculatorImplTestJUnit.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Constants.java" />
         <option value="$PROJECT_DIR$/src/test/java/CalculatorTestMokito.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CalculatorImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/Calculator.java" />
       </list>
     </option>
@@ -218,7 +218,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1531387621082" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1531391249160" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
@@ -324,18 +324,24 @@
       <option name="presentableId" value="Default" />
       <updated>1531371364680</updated>
     </task>
+    <task id="LOCAL-00001" summary="initialized scalor variable in the construtor">
+      <created>1531389953990</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1531389953990</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added throws ArithmeticException">
+      <created>1531390311394</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1531390311394</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculatorTestNG - 2018.07.12 at 13h 19m 16s.xml">
-      <configuration name="CalculatorTestNG" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CalculatorTestMokito - 2018.07.12 at 13h 19m 39s.xml">
-      <configuration name="CalculatorTestMokito" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CalculatorTestMokito_(1) - 2018.07.12 at 13h 20m 07s.xml">
-      <configuration name="CalculatorTestMokito (1)" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="CalculatorImplTestJUnit - 2018.07.12 at 13h 21m 52s.xml">
       <configuration name="CalculatorImplTestJUnit" configurationId="JUnit" />
     </history-entry>
@@ -357,11 +363,21 @@
     <history-entry file="CalculatorTestMokito - 2018.07.12 at 13h 37m 03s.xml">
       <configuration name="CalculatorTestMokito" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="CalculatorTestMokito - 2018.07.12 at 15h 33m 20s.xml">
+      <configuration name="CalculatorTestMokito" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CalculatorTestMokito - 2018.07.12 at 15h 33m 52s.xml">
+      <configuration name="CalculatorTestMokito" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CalculatorTestMokito - 2018.07.12 at 15h 34m 04s.xml">
+      <configuration name="CalculatorTestMokito" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1213" height="999" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24402308" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24402308" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -370,15 +386,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5201381" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5190583" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39930955" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3295964" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3295964" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32911393" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32847533" />
       <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32990575" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -392,6 +408,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initialized scalor variable in the construtor" />
+    <MESSAGE value="added throws ArithmeticException" />
+    <option name="LAST_COMMIT_MESSAGE" value="added throws ArithmeticException" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/ArrayList.java">
@@ -413,13 +434,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.getignoreit">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorTestJUnit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -432,25 +446,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorTestJUnit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        <state relative-caret-position="735">
+          <caret line="53" column="60" lean-forward="true" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorTestMokito.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorTestNG.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="41" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="41" />
+        <state relative-caret-position="717">
+          <caret line="53" column="56" lean-forward="true" selection-start-line="53" selection-start-column="56" selection-end-line="53" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorTestNG.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorTestMokito.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="225">
+          <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -459,15 +473,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.getignoreit">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        <state relative-caret-position="627">
+          <caret line="96" column="31" lean-forward="true" selection-start-line="96" selection-start-column="31" selection-end-line="96" selection-end-column="31" />
         </state>
       </provider>
     </entry>

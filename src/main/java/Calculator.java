@@ -12,19 +12,19 @@
  *
  */
 
-public class Calculator implements Constants{
+public class Calculator {
 
-    private int scale;
+    private static int scale;
 
-    Constants constants; //object to refer CalculatorService interface
+    private static Constants constants; //object to refer CalculatorService interface
 
     /*
      *  parameterized constructor
      * */
 
-    public Calculator(Constants constants, int z) {
+    public Calculator(Constants constants, int scale) {
 
-        this.scale = 10;
+        this.scale = scale;
         this.constants = constants;
     }
 
@@ -60,11 +60,11 @@ public class Calculator implements Constants{
     /*
      *  will multiplsecondNumber numbers with scalor
      * */
-    public static int multiplyScalor(int firstNumber, int secondNumber, int z) {
+    public static int multiplyScalor(int firstNumber, int secondNumber) {
 
         int answer;
 
-        answer = firstNumber * secondNumber * z;
+        answer = firstNumber * secondNumber * scale;
         System.out.println("answer" + answer);
 
         return answer;
@@ -76,36 +76,32 @@ public class Calculator implements Constants{
      * */
     public static int multiplyByGravity(int firstNumber, int secondNumber, int z) {
 
-        int answer;
-
-        answer = firstNumber * secondNumber * gravity;
+        int answer = firstNumber * secondNumber * constants.getGravity();
         System.out.println("answer" + answer);
 
         return answer;
     }
 
-    public static int minus(int firstNumber, int secondNumber) {//will do the minus operand
+    /*
+     *  will do the minus operand
+     * */
+    public static int minus(int firstNumber, int secondNumber) {
 
-        int answer;
-
-        answer = firstNumber - secondNumber;
+        int answer = firstNumber - secondNumber;
         System.out.println("answer" + answer);
 
         return answer;
     }
 
-    public static int divide(int firstNumber, int secondNumber) throws ArithmeticException{//will divide two numbers
+    /*
+     *  will divide two numbers
+     * */
+    public static int divide(int firstNumber, int secondNumber) throws ArithmeticException{
 
-        int answer = 0;
-
-        answer = firstNumber / secondNumber;
+        int answer = firstNumber / secondNumber;
         System.out.println("answer" + answer);
 
         return answer;
     }
 
-    public int getGravity() {
-
-        return gravity;
-    }
 }
