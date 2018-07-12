@@ -12,46 +12,64 @@
  *
  */
 
-public class CalculatorImpl {
+public class Calculator {
 
-    private static int answer;
-    private static int x;
-    private static int y;
+    private int z = 10;
 
-    CalculatorService calculatorService; //object to refer CalculatorService interface
+    Constants constants; //object to refer CalculatorService interface
 
     /*
      *  parameterized constructor
      * */
-    public CalculatorImpl(CalculatorService calculatorService) {
 
-        this.calculatorService = calculatorService;
-    }
+    public Calculator(Constants constants) {
 
-    public static void main(String[] args) {
-
-        add(1, 1);
-        multiply(1, 1);
-        minus(1, 1);
-        divide(1, 1);
+        this.constants = constants;
     }
 
     public static int add(int x, int y) { //will add numbers
 
+        int answer;
+
         answer = x + y;
+        System.out.println("answer" + answer);
 
         return answer;
     }
 
     public static int multiply(int x, int y) {//will multiply numbers
 
-        answer = x * y;
+        int answer;
 
+        answer = x * y;
         System.out.println("answer" + answer);
+
+        return answer;
+    }
+
+    public static int multiplyStatic(int x, int y, int z) {//will multiply numbers
+
+        int answer;
+
+        answer = x * y * z;
+        System.out.println("answer" + answer);
+
+        return answer;
+    }
+
+    public static int multiplyCons(int x, int y, int z) {//will multiply numbers
+
+        int answer;
+
+        answer = x * y * Constants.getG();
+        System.out.println("answer" + answer);
+
         return answer;
     }
 
     public static int minus(int x, int y) {//will do the minus operand
+
+        int answer;
 
         answer = x - y;
         System.out.println("answer" + answer);
@@ -60,6 +78,8 @@ public class CalculatorImpl {
     }
 
     public static int divide(int x, int y) {//will divide two numbers
+
+        int answer = 0;
 
         try {
 

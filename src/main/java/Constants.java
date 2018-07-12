@@ -1,4 +1,14 @@
 public class Constants {
 
-    private int g = 10;
+    private static int g = 10;
+
+    public static int getG() {
+
+        return g;
+    }
+
+    public void setG(int g) {
+
+        this.g = g;
+    }
 }
