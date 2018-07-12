@@ -14,9 +14,9 @@
 
 public class Calculator {
 
-    private static int scale;
+    private int scale;
 
-    private static Constants constants; //object to refer CalculatorService interface
+    private Constants constants; //object to refer CalculatorService interface
 
     /*
      *  parameterized constructor
@@ -32,7 +32,7 @@ public class Calculator {
     /*
     * will add numbers
      */
-    public static int add(int firstNumber, int secondNumber) {
+    public int add(int firstNumber, int secondNumber) {
 
         int answer;
 
@@ -46,11 +46,9 @@ public class Calculator {
      *  will multiply numbers
      * */
 
-    public static int multiply(int firstNumber, int secondNumber) {
+    public int multiply(int firstNumber, int secondNumber) {
 
-        int answer;
-
-        answer = firstNumber * secondNumber;
+        int answer = firstNumber * secondNumber;
         System.out.println("answer" + answer);
 
         return answer;
@@ -60,11 +58,9 @@ public class Calculator {
     /*
      *  will multiplsecondNumber numbers with scalor
      * */
-    public static int multiplyScalor(int firstNumber, int secondNumber) {
+    public int multiplyByScalor(int firstNumber, int secondNumber) {
 
-        int answer;
-
-        answer = firstNumber * secondNumber * scale;
+        int answer = firstNumber * secondNumber * scale;
         System.out.println("answer" + answer);
 
         return answer;
@@ -74,7 +70,7 @@ public class Calculator {
     /*
      *  will multiply numbers with gravity
      * */
-    public static int multiplyByGravity(int firstNumber, int secondNumber, int z) {
+    public int multiplyByGravity(int firstNumber, int secondNumber, int scale) {
 
         int answer = firstNumber * secondNumber * constants.getGravity();
         System.out.println("answer" + answer);
@@ -85,7 +81,7 @@ public class Calculator {
     /*
      *  will do the minus operand
      * */
-    public static int minus(int firstNumber, int secondNumber) {
+    public int minus(int firstNumber, int secondNumber) {
 
         int answer = firstNumber - secondNumber;
         System.out.println("answer" + answer);
@@ -96,7 +92,7 @@ public class Calculator {
     /*
      *  will divide two numbers
      * */
-    public static int divide(int firstNumber, int secondNumber) throws ArithmeticException{
+    public int divide(int firstNumber, int secondNumber) throws ArithmeticException{
 
         int answer = firstNumber / secondNumber;
         System.out.println("answer" + answer);
