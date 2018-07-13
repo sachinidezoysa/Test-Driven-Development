@@ -10,27 +10,22 @@ import static org.testng.Assert.*;
 public class CalculatorTestNG {
 
     Calculator calculator;
-    Constants constant;
+    Constants constants;
 
     @BeforeTest
     void setUp(){
-
-        constant = mock(Constants.class);
-        when(calculator.multiplyByGravity(10, 10, 10)).thenReturn(1000);//config it to return 1000 when  args passed as given
-        verify(calculator).multiplyByGravity(10,10,10);
-
+        constants = mock(Constants.class);
+        calculator = new Calculator(constants, 10);
         System.out.println("Before Test completed");
     }
 
     @AfterTest
     void tearDown(){
-
         System.out.println("After Test completed");
     }
 
     @Test
     public void testAdd() {
-
         assertEquals(10, calculator.add(10, 0), "10 + 0 must be 10");
     }
 
@@ -60,7 +55,7 @@ public class CalculatorTestNG {
 
     @Test
     void multiplyCons() throws Exception{
-
+        when(calculator.multiplyByGravity(10, 10, 10)).thenReturn(10);//config it to return 1000 when  args passed as given
         assertEquals(1000, calculator.multiplyByGravity(10, 10, 10), "10 / 10 must be 1");
     }
 }
