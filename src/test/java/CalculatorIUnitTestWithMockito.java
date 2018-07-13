@@ -8,7 +8,7 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
-public class CalculatorTest {
+public class CalculatorIUnitTestWithMockito {
 
     Calculator calculator;
     Constants constants;
@@ -58,7 +58,7 @@ public class CalculatorTest {
     }
 
     @Test
-    public void divide() {
+    public void divide() throws ArithmeticException{
         int printInt = calculator.divide(2,2);
         Assert.assertEquals(1,printInt);
     }

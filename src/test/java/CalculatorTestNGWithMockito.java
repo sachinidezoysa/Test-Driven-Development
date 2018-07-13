@@ -7,7 +7,7 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 import static org.testng.Assert.*;
 
-public class CalculatorTestNG {
+public class CalculatorTestNGWithMockito {
 
     Calculator calculator;
     Constants constants;

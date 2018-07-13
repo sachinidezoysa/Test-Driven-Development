@@ -32,11 +32,9 @@ public class Calculator {
     /*
     * will add numbers
      */
-    public int add(int firstNumber, int secondNumber) {
+    public static int add(int firstNumber, int secondNumber) {
 
-        int answer;
-
-        answer = firstNumber + secondNumber;
+        int answer = firstNumber + secondNumber;
         System.out.println("answer" + answer);
 
         return answer;
